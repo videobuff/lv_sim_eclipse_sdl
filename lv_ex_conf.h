@@ -20,6 +20,7 @@
 
 /*Show some widget*/
 #define LV_USE_DEMO_WIDGETS        1
+#define LV_USE_DEMO_WIDGETS        1
 #if LV_USE_DEMO_WIDGETS
 #define LV_DEMO_WIDGETS_SLIDESHOW  0
 #endif
@@ -37,7 +38,7 @@
 #define LV_USE_DEMO_STRESS      1
 
 /*Music player for LVGL*/
-#define LV_USE_DEMO_MUSIC      0
+#define LV_USE_DEMO_MUSIC      1
 #if LV_USE_DEMO_MUSIC
 #define LV_DEMO_MUSIC_AUTO_PLAY 0
 #endif

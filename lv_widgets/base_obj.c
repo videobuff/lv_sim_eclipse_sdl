@@ -4,7 +4,7 @@
  *  Created on: 2 feb. 2021
  *      Author: erikschott
  */
-
+ #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include "base_obj.h"
