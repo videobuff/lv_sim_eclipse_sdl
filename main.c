@@ -19,6 +19,9 @@
 #include "lv_drivers/indev/keyboard.h"
 #include "lv_drivers/indev/mousewheel.h"
 #include "lv_examples/lv_examples.h"
+#include "lv_widgets/base_obj.h"
+
+
 
 /*********************
  *      DEFINES
@@ -59,8 +62,9 @@ int main(int argc, char **argv)
   /*Initialize the HAL (display, input devices, tick) for LVGL*/
   hal_init();
 
-  lv_demo_widgets();
-//  lv_demo_printer();
+  //lv_demo_widgets();
+  // lv_demo_printer();
+  base_obj();
 
   while (1) {
     /* Periodically call the lv_task handler.
